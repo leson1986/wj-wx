@@ -1,6 +1,8 @@
-# wj-wx
+# swidc.net
 
-> a WX product
+> 参考网站：http://www.swidc.net
+> vue全家桶：vuejs2 + vuex2 + vue-router2 + vue-resouce + php
+> 麻雀虽小，五脏俱全。主要目的是用于学习vuex和router的使用，大家如果有什么更好的例子和建议，欢迎留言！
 
 ## Build Setup
 

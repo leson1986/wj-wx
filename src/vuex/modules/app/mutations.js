@@ -1,19 +1,22 @@
-import {
-  CHANGE_LEFTNAV_STATE,
-  START_LOADING,
-  FINISH_LOADING
-} from './mutation-type'
+/**
+ * Created by ls.c on 2016/11/1.
+ */
+
+export const CHANGE_LOADING_STATE = 'CHANGE_LOADING_STATE'
+export const START_LOADING = 'START_LOADING'
+export const FINISH_LOADING = 'FINISH_LOADING'
 
 const mutations = {
-  // 切换左侧导航的显示状态
-  [CHANGE_LEFTNAV_STATE] (state, isShow) {
-    state.leftNavState = isShow
-  },
-  [START_LOADING] (state) {
-    state.loading = true
-  },
-  [FINISH_LOADING] (state) {
-    state.loading = false
-  }
+	[CHANGE_LOADING_STATE] (state, isShow) {
+		state.loading = isShow
+	},
+	[START_LOADING] (state) {
+		state.loading = true
+	},
+	[FINISH_LOADING] (state) {
+		state.loading = false
+	}
 }
+
+
 export default mutations
